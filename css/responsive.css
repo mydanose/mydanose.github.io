@@ -253,7 +253,7 @@ header nav .login_btn:hover{
 .search{
     width: 100%;
     height: 100px;
-    background: #bfd9f2;
+    background: #81C784;
     position: relative;
 }
 
@@ -592,7 +592,7 @@ header nav .login_btn:hover{
 /*  footer  */
 footer{
     padding-top: 100px;
-    background: #95badf;
+    background: #66BB6A;
 }
 
 footer .footer > ul{
@@ -612,7 +612,7 @@ footer .footer > ul > li:last-child{
 
 
 footer .footer > ul > li.links{
-    width: 197px;
+    width: 713px;
 }
 
 footer ul li.links > ul > li{
@@ -638,6 +638,7 @@ footer .footer > ul > li.links li a{
 
 footer .footer > ul > li.about{
     width: 327px;
+    text-align: right;
 }
 
 footer ul li.about p{
@@ -697,7 +698,7 @@ footer .copyrights{
     font-family: "lato-regular", Helvetica, Arial, sans-serif;
     font-size: 14px;
     letter-spacing: .5px;
-    border-top: 1px solid #82abd4;
+    border-top: 1px solid #e8e8e8;
 }
 
 footer .copyrights a.ph_link{
@@ -980,11 +981,26 @@ footer .copyrights a.ph_link{
 }
 
 .order-now {
-line-height: 90px;
+line-height: normal;
 font-size: 30px;
 color: #ffffff;
 text-align: center;
 font-family: "lato-bold", Helvetica, Arial, sans-serif;
+display: inline-block;
+vertical-align: middle;
+width: 49.5%;
+text-align: left;
+}
+
+.address {
+display: inline-block;
+vertical-align: middle;
+line-height: normal;
+width: 50%;
+text-align: right;
+font-family: "lato-bold", Helvetica, Arial, sans-serif;
+color: #ffffff;
+font-size: 20px;
 }
 
 .menu-title {
@@ -1004,6 +1020,19 @@ z-index: -1 !important;
 
 #slides .slides-container > *,
 #slides .slides-container > * > img {
-    height: 800px !important;
-    top: 0 !important;
+height: 800px !important;
+top: 0 !important;
+}
+
+.mydanose-logo {
+font-family: "p22_corinthia", Helvetica, Arial, sans-serif;
+text-decoration: none;
+color: #fff;
+font-weight: lighter;
+font-size: 55px;
+line-height: 100px;
+}
+
+.search > .wrapper {
+line-height: 90px;
 }
